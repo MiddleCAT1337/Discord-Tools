@@ -1,0 +1,25 @@
+{
+  "token": "YOUR_USER_TOKEN_HERE",
+  "intervalMs": 5000,
+  "applicationId": "YOUR_APPLICATION_ID_HERE",
+  "applicationName": "WELLSHOP",
+  "presenceType": 3,
+  "buttons": [
+    { "label": "Website", "url": "https://example.com" },
+    { "label": "Join Discord", "url": "https://discord.gg/example" }
+  ],
+  "presences": [
+    {
+      "details": "เช่าสถานะ discord 🟢 :P",
+      "state": "( 🛒 ) สั่งซื้อสินค้าผ่านหน้าเว็บได้ 24 ชม",
+      "assets": {
+        "large_image": "logo",
+        "large_text": "WELLSHOP"
+      }
+    },
+    {
+      "details": "Another line — details (bold line)",
+      "state": "Secondary line — state"
+    }
+  ]
+}

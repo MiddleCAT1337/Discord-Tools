@@ -1,0 +1,13 @@
+{
+  "name": "discord-rich-presence-rotator",
+  "version": "2.0.0",
+  "description": "Rotate Discord Rich Presence from config.json via Gateway WebSocket",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
